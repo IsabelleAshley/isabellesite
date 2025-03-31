@@ -40,7 +40,7 @@ export default function Navbar() {
                     key={item.name}
                     href={item.href}
                     aria-current={item.current ? 'page' : undefined}
-                    className='text-black hover:bg-rose-200 hover:text-white rounded-md px-3 py-2 text-sm font-medium'
+                    className='text-black hover:bg-teal-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium'
                   >
                     {item.name}
                   </a>
@@ -61,7 +61,7 @@ export default function Navbar() {
               as="a"
               href={item.href}
               aria-current={item.current ? 'page' : undefined}
-              className='bg-white text-black text-black hover:bg-rose-200 hover:text-white block rounded-md px-3 py-2 text-base font-medium'
+              className='bg-white text-black text-black hover:bg-teal-600 hover:text-white block rounded-md px-3 py-2 text-base font-medium'
             >
               {item.name}
             </DisclosureButton>

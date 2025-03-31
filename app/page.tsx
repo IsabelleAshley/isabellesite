@@ -8,7 +8,7 @@ export default function Page() {
           <div className="mx-auto max-w-lg lg:mx-0">
             <div className="hidden sm:mt-32 sm:flex lg:mt-16">
               <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                <Link href="/about" className="whitespace-nowrap font-semibold text-indigo-600"><span aria-hidden="true" className="absolute inset-0" />
+                <Link href="/about" className="whitespace-nowrap font-semibold text-fuchsia-700"><span aria-hidden="true" className="absolute inset-0" />
                 Read more about me <span aria-hidden="true">&rarr;</span>
                 </Link>
               </div>

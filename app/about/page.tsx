@@ -46,7 +46,7 @@ const jobOpenings = [
     role: 'Intern at Code Girls United',
     href: '#',
     description:
-      'Podcast producer, writing and creating videos for curriculum, social media, summer camps, testing equipment',
+      'Producing podcasts, creating engaging videos for curriculum, social media management, writing curriculum for summer camps, and testing tech equipment.',
     location: 'Kalispell, MT',
   },
   {
