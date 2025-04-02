@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from "next/image";
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
@@ -54,7 +55,7 @@ const jobOpenings = [
     role: 'Teacher at Code Girls United',
     href: '#',
     description:
-      'Teacher of beginner class',
+      'Teaching 4th-8th grade girls how to code using MIT App Inventor, create their own projects, and teamwork, business, and presentation skills.',
     location: 'Kalispell, MT',
   },
 ]
@@ -79,14 +80,14 @@ export default function Page() {
               </h1>
               <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
                 <p className="text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                  amet fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt. Qui
-                  irure qui lorem cupidatat commodo.
+                I'm a developer on a journey to build the future, one line of code at a time. I thrive on the challenge of learning and adapting, and I'm dedicated to creating innovative solutions that address real-world problems. My passion lies in building technology that empowers and inspires. Let's connect and explore the possibilities.
                 </p>
               </div>
-              <img
+              <Image
+                src={'/PurpleAbstract.jpg'}
                 alt=""
-                src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
+                width={100}
+                height={100}
                 className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
               />
             </div>
